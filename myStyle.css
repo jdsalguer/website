@@ -1,0 +1,57 @@
+/* Navigation */
+ul {
+	font-family: Arial, Verdana;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul li {
+	display: block;
+	position: relative;
+	float: right;
+	margin: 0;
+	padding 0;
+}
+li ul {
+	display: none;
+}
+ul li a {
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	color: #ffffff;
+	border-top: 1px solid #ffffff;
+	border-left: 1px solid #ccc;
+	padding: 5px 60px 5px 60px;
+	margin-left: 1px;
+	white-space: nowrap;
+	background-image: url('http://www.piconepaintingandpaperhanging.com/blog/wp-content/uploads/2014/07/Blue.jpg');
+	background-repeat: repeat-x;
+	background-size: 55px;
+}
+ul li a:hover {
+	background: #3b3b3b;
+}
+li:hover ul {
+	display: block;
+	position: absolute;
+}
+li:hover li {
+	float: none;
+	font-size: 12px;
+	text-align: left;
+}
+li:hover a {
+	background: #3b3b3b;
+}
+li:hover li a:hover {
+	background: #1e7c9a;
+}
+/* Background Image */
+body{
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
